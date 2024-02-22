@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2 {
+    color: aquamarine;
+    border-bottom: 2px solid rgb(232, 37, 37);
+    box-shadow: 4px #88888888 ;
+}
+
+P {
+    font-size:  20px;
+}
+span {
+    font-size: 2em;
+}
+img {
+    width: 100px;
+    height: 90px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover {
+    transform: scale(2.2);
+}
